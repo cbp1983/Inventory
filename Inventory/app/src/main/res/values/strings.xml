@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="item">Item</string>
+    <string name="supplier_details">Supplier details</string>
+    <string name="product_name">Product name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier_name">Supplier name</string>
+    <string name="supplier_phone">Supplier phone number</string>
+
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_oxford">Oxford University Press</string>
+    <string name="supplier_cambridge">Cambridge University Press</string>
+    <string name="supplier_penguin">Penguin Books</string>
+    <string name="supplier_macmillan">MacMillan</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <string name="action_insert_sample_data">Insert sample data</string>
+    <string name="action_delete_items">Delete all data</string>
+
+    <string name="editor_activity_title">Add a book</string>
+</resources>
