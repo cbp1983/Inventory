@@ -41,6 +41,26 @@
                 android:inputType="number"
                 style="@style/EditorFieldStyle" />
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/increase_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="+" />
+
+                <Button
+                    android:id="@+id/decrease_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/increase_button"
+                    android:text="-" />
+
+            </RelativeLayout>
+
             <!-- Price field -->
             <EditText
                 android:id="@+id/edit_product_price"
@@ -69,7 +89,7 @@
             android:layout_weight="2"
             android:orientation="vertical">
 
-            <!-- Gender drop-down spinner -->
+            <!-- Supplier drop-down spinner -->
             <Spinner
                 android:id="@+id/spinner_supplier"
                 android:layout_height="48dp"
@@ -83,6 +103,13 @@
                 android:hint="@string/supplier_phone"
                 android:inputType="phone"
                 style="@style/EditorFieldStyle" />
+
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/call_supplier" />
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
